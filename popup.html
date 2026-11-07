@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maple Scheduler</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="popup-body">
+    <main class="popup-shell">
+      <p class="eyebrow">MAPLE SCHEDULER</p>
+      <header class="popup-heading">
+        <h1>오늘의 스케줄</h1>
+      </header>
+      <div class="settings-row"><button id="open-settings" class="secondary" type="button">설정</button></div>
+      <p class="hint schedule-deadline-hint">마감 기간의 미완료 항목은 빨간색으로 강조됩니다.</p>
+      <p id="popup-message" class="description"></p>
+      <nav id="account-tabs" class="schedule-tabs account-tabs" aria-label="계정 선택" hidden></nav>
+      <nav id="world-tabs" class="schedule-tabs world-tabs" aria-label="월드 선택" hidden></nav>
+      <div id="scheduler-list" class="scheduler-list"></div>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
