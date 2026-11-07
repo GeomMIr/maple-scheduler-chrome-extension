@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Maple Scheduler",
+  "version": "0.1.0",
+  "description": "개인 메이플스토리 스케줄러 달성 현황을 확인합니다.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://open.api.nexon.com/*"],
+  "action": {
+    "default_title": "Maple Scheduler",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}
